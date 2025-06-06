@@ -1,0 +1,27 @@
+@import url('./xy-theme.css');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.resize-node {
+  min-width: 100px;
+  min-height: 30px;
+  height: 100%;
+  width: 100%;
+
+  border: none;
+  outline: none;
+  background: transparent;
+
+  text-align: center;
+}
